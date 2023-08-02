@@ -1,0 +1,32 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "노드서버와리액트연동",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leeseoku/nodemysqlreact.git"
+  },
+  "keywords": [
+    "\"node\"",
+    "\"react\"",
+    "\"sql\""
+  ],
+  "author": "이석우",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeseoku/nodemysqlreact/issues"
+  },
+  "homepage": "https://github.com/leeseoku/nodemysqlreact#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "mybatis-mapper": "^0.7.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
